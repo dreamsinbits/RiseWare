@@ -3,8 +3,11 @@
         SYSTEM "https://resources.jetbrains.com/writerside/1.0/product-profile.dtd">
 
 <instance-profile id="pd"
-                 name="Project Documentation"
-                 start-page="starter-topic.md">
+                 name="RiseWare Project Documentation"
+                 start-page="Introduction.md">
 
-    <toc-element topic="starter-topic.md"/>
+    <toc-element topic="Introduction.md">
+        <toc-element topic="Canvas.md"/>
+    </toc-element>
+    <toc-element topic="Quality.md"/>
 </instance-profile>
